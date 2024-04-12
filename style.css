@@ -606,6 +606,13 @@ header.shadow{
         transition: 0.2s;
          
        }
+       .image,
+        .image img{
+           
+            width: 150%; /* Adjust the percentage as needed */
+            height: auto; /* Allow the height to adjust proportionally */
+            border-radius: 40% 40% 40% 40%;
+        }
        .navbar.active{
         top: 100%;
        
