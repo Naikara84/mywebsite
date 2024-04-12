@@ -1,6 +1,7 @@
 let header =document.querySelector('header');
 let menu =document.querySelector('#menu-icon');
 let navbar =document.querySelector('.navbar');
+let popup = document.getElementById('.popup')
 
 window.addEventListener('scroll', ()=> {
     header.classList.toggle('shadow',window.scrollY >0);
@@ -12,6 +13,12 @@ window.onscroll =() =>{
     navbar.classList.remove('active');
 }
 
+function openPopup() {
+    popup.classList.add('open-popup')
+}
+function closePopup() {
+    popup.classList.remove('open-popup')
+}
 
 var typingEffect = new Typed(".typedText",{
     strings:["Software Developer","Designer", "Illustrator"],
@@ -57,3 +64,4 @@ const srRight = ScrollReveal({
 
 srRight.reveal(".portfolio-content", {delay: 200});
 srRight.reveal(".skill", {delay: 100});
+
