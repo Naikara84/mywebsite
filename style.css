@@ -123,12 +123,12 @@ header.shadow{
     font-size: 50px;
     font-weight: 400;
     margin-block: 20px;
-    color: #8749f2;
+    color: #03bdec;
     margin-bottom: 10px;
 }
 .typedText{
    font-family: sans-serif;
-   color:  #8749f2;
+   color:  #03bdec;
    font-size: 70px;
    font-weight: 600;
    text-transform: capitalize;
@@ -142,7 +142,7 @@ header.shadow{
 
 .btn{
     display: inline-block;
-    background: #732dec;
+    background: #03bdec;
     color: #fff;
     margin-top: 20px;
     padding:10px 25px ;
@@ -150,7 +150,7 @@ header.shadow{
 
 }
 .btn:hover{
-    background: #8749f2;
+    background: #03bdec;
 }
 
 .social_icons{
@@ -169,7 +169,7 @@ header.shadow{
     height: 40px;
     line-height: 40px;
     text-align: center;
-    box-shadow: 0px 1px 5px 3px #8749f2;
+    box-shadow: 0px 1px 5px 3px #35d0f764;
     border-radius: 50%;
     transition: 0.5ms;
 
@@ -244,7 +244,7 @@ header.shadow{
 }
 .btn-b{
  display: inline-block;
- background: #732dec;
+ background: #03b1dd;
  color: #fff;
  padding: 8px 20px;
  margin-top: -5px;
@@ -252,7 +252,7 @@ header.shadow{
  border-radius: 10px;
 }
 .btn-b :hover{
-    background: #8749f2;
+    background: #03bdec;
 }
 
 .skills{
@@ -320,7 +320,7 @@ header.shadow{
     width:20px;
     height:4px;
     border-radius: 2px 0 0 2px;
-    background-color: #732dec;
+    background-color: #03bdec;
     transition: .5s;
     }
     
@@ -332,7 +332,7 @@ header.shadow{
     width:100px;
     height:4px;
     border-radius: 0 2px 2px 0;
-    background-color: #732dec;
+    background-color: #03bdec;
     }
     
     .skills-icons{
@@ -365,7 +365,7 @@ header.shadow{
     }
     .heading span{
         font-size: var(--p-font);
-        color: #8749f2;
+        color: #03bdec;
         text-align: center;
     }
     .services-content{
@@ -386,7 +386,7 @@ header.shadow{
         box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
     }
     .services-box:hover{
-        background:#8749f2;
+        background:#03bdec;
     }
     .services-box h3{
         font-size: 1rem;
@@ -400,7 +400,7 @@ header.shadow{
     .services-box .bx{
         padding-top: 2rem;
         font-size: 54px;
-        color: #8749f2;
+        color: #03bdec;
 
     }
     .services-box:hover .bx{
@@ -499,7 +499,7 @@ header.shadow{
 
     }
     .footer-menu-list a:hover{
-        color: #8749f2;
+        color: #03bdec;
     }
     .footer-social-icons{
         display: flex;
@@ -517,7 +517,7 @@ header.shadow{
             min-height: 200px;
             width: 100%;
             margin-top: 20px;
-            margin-right: -28px;
+           
         }
         .image,
         .image img{
@@ -549,7 +549,7 @@ header.shadow{
         }
         
         header{
-            padding: 11px 4%;
+            padding: 18px 4%;
         }
        #menu-icon{
         display: initial;
@@ -593,10 +593,16 @@ header.shadow{
 
        }
     
-       footer{
-        position: absolute;
-        display: flex;
-        align-items: center;
-       }
+       section{
+            padding: 50px 4%;
+        }
+        footer{
+                padding: 18px 4%;
+        }
+        .middle-footer .footer-menu{
+            padding: 18px 4%;
+            flex-direction: column;
+            align-items:center;
+        }
        }
    
