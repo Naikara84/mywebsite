@@ -285,7 +285,7 @@ header.shadow{
     
     .skills-container{
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         justify-content: center;
         gap: 1rem;
         padding-top: 25px 0;
@@ -539,6 +539,9 @@ header.shadow{
         footer{
                 padding: 18px 4%;
         }
+        .skills-container{
+            grid-template-columns: repeat(2, minmax(0, 1fr)); 
+        }
        }
 
      @media (max-width: 770px){
@@ -592,6 +595,11 @@ header.shadow{
         justify-content: center;
 
        }
+       .skills-container{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      
+       
+        }
     
        section{
             padding: 50px 4%;
